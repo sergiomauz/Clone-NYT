@@ -1,1 +1,43 @@
-s
+nav{
+  position: fixed;
+  top: 0pc;
+  width: 100%;
+  text-align: center;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e2e2e2;
+  vertical-align: middle;
+}
+
+.menuList{ display: inline-block; }
+
+.logo{ max-width: 200px; }
+.rightTopMenu{ 
+  float: right;
+  margin: 15px;
+}
+
+.leftTopMenu{ 
+  float: left; 
+  margin: 15px;
+}
+
+.menuLink{
+  text-decoration: none;
+  color: #000000;
+  font-weight: 700;
+}
+
+
+
+.subscribeBtn{
+  font-family: nyt-franklin,helvetica,arial,sans-serif;
+  background: #567b95;
+  border: 1px solid #326891;
+  font-size: 11px;
+  color: #ffffff;
+  font-weight: 700;
+  vertical-align: middle;
+  padding: 7px;
+  border-radius: 10%;
+
+}
