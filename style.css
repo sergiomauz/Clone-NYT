@@ -52,10 +52,19 @@ main {
 }
 .mainArticleWrapper {
   width: 600px;
+  margin: 0 auto;
 }
 .mainImageWrapper {
   text-align: center;
   margin: 0 auto;
+  width: 1200px;
+}
+.innerArticleWrapper{
+	text-align: center;
+	margin-top: 30px;
+}
+.footerImage{
+	text-align: start;
 }
 
 #menuScreenMarginLeft {
@@ -72,4 +81,40 @@ main {
 #mainImage {
   width: 1200px;
   height: 700px;
+}
+.alignTextToStart{
+  text-align: start;
+}
+.articleDateDiv{
+  display: inline-block;
+}
+.leftFloat{
+  float: left;
+}
+.rightFloat{
+  float: right;
+  margin-right: 15px;
+}
+.articleDateDivWrapper > a > i {
+  border-radius: 100%;
+  border: 0;
+  background-color: #eee;
+  padding: 10px;
+  color: black;
+}
+.date{
+  margin-top: 10px;
+}
+.authors{
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+.articleContentWrapper{
+	margin-top: 90px;
+}
+.articleContentWrapper > p {
+  text-align: justify;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  margin-bottom: 0.9375rem;
 }
