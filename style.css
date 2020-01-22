@@ -131,6 +131,14 @@ main {
   color: rgb(50, 104, 145);
   text-decoration: none;
 }
-.asideEditorPics {
+aside {
   float: right;
+  margin-right: 40px;
+  width: 400px;
 }
+.editorsPickInline{
+  display: inline-block;
+  text-align: start;
+  vertical-align: middle;
+}
+
