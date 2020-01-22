@@ -136,9 +136,18 @@ aside {
   margin-right: 40px;
   width: 400px;
 }
-.editorsPickInline{
+.editorsPickInline {
   display: inline-block;
   text-align: start;
   vertical-align: middle;
 }
+.theoryDescription {
+  background-image: url("image1.png");
+}
 
+tr {
+  width: 228px;
+}
+td {
+  height: 120px;
+}
