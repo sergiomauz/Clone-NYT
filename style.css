@@ -59,12 +59,12 @@ main {
   margin: 0 auto;
   width: 1200px;
 }
-.innerArticleWrapper{
-	text-align: center;
-	margin-top: 30px;
+.innerArticleWrapper {
+  text-align: center;
+  margin-top: 30px;
 }
-.footerImage{
-	text-align: start;
+.footerImage {
+  text-align: start;
 }
 
 #menuScreenMarginLeft {
@@ -82,16 +82,16 @@ main {
   width: 1200px;
   height: 700px;
 }
-.alignTextToStart{
+.alignTextToStart {
   text-align: start;
 }
-.articleDateDiv{
+.articleDateDiv {
   display: inline-block;
 }
-.leftFloat{
+.leftFloat {
   float: left;
 }
-.rightFloat{
+.rightFloat {
   float: right;
   margin-right: 15px;
 }
@@ -102,19 +102,35 @@ main {
   padding: 10px;
   color: black;
 }
-.date{
+.date {
   margin-top: 10px;
 }
-.authors{
-	font-weight: 700;
-	margin-bottom: 15px;
+.authors {
+  font-weight: 700;
+  margin-bottom: 15px;
 }
-.articleContentWrapper{
-	margin-top: 90px;
+.articleContentWrapper {
+  margin-top: 90px;
 }
 .articleContentWrapper > p {
   text-align: justify;
   font-size: 1.25rem;
   line-height: 1.875rem;
   margin-bottom: 0.9375rem;
+}
+.littleSplitBar {
+  width: 72px;
+  height: 2px;
+  background-color: #eee;
+  margin: 0 45%;
+}
+.bold {
+  font-weight: 700;
+}
+.suscribeLink {
+  color: rgb(50, 104, 145);
+  text-decoration: none;
+}
+.asideEditorPics {
+  float: right;
 }
