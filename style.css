@@ -1,4 +1,4 @@
-nav{
+nav {
   position: fixed;
   top: 0pc;
   width: 100%;
@@ -6,31 +6,37 @@ nav{
   background-color: #ffffff;
   border-bottom: 1px solid #e2e2e2;
   vertical-align: middle;
+  height: 45px;
+}
+main {
+  margin-top: 100px;
 }
 
-.menuList{ display: inline-block; }
+.menuList {
+  display: inline-block;
+}
 
-.logo{ max-width: 200px; }
-.rightTopMenu{ 
+.menuLogo {
+  height: 40px;
+}
+.rightTopMenu {
   float: right;
-  margin: 15px;
+  margin: 10px;
 }
 
-.leftTopMenu{ 
-  float: left; 
-  margin: 15px;
+.leftTopMenu {
+  float: left;
+  margin: 10px;
 }
 
-.menuLink{
+.menuLink {
   text-decoration: none;
   color: #000000;
   font-weight: 700;
 }
 
-
-
-.subscribeBtn{
-  font-family: nyt-franklin,helvetica,arial,sans-serif;
+.subscribeBtn {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
   background: #567b95;
   border: 1px solid #326891;
   font-size: 11px;
@@ -39,5 +45,31 @@ nav{
   vertical-align: middle;
   padding: 7px;
   border-radius: 10%;
+}
 
+.articleAlign {
+  text-align: center;
+}
+.mainArticleWrapper {
+  width: 600px;
+}
+.mainImageWrapper {
+  text-align: center;
+  margin: 0 auto;
+}
+
+#menuScreenMarginLeft {
+  float: left;
+  margin-left: 150px;
+}
+#menuScreenMarginRight {
+  float: right;
+  margin-right: 150px;
+}
+#menuScreenUserIcon {
+  display: none;
+}
+#mainImage {
+  width: 1200px;
+  height: 700px;
 }
