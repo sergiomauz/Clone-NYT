@@ -161,7 +161,7 @@ aside {
   text-align: center;
 }
 .pullToStart {
-  text-align: start;
+  text-align: start !important;
 }
 .bigImageHeader {
   width: 945px;
@@ -215,4 +215,18 @@ ul {
 }
 .leftSplitBar {
   border-left: 1px solid #eee;
+}
+.footerWrapper{
+  text-align: start;
+}
+
+.innerfooterWrapper{
+  width: 1000px;
+  margin : 0 auto;
+}
+.displayInLineBlock > ul {
+  padding:  0px;
+}
+.displayInLineBlock > ul{
+   margin-right: 20px;
 }
