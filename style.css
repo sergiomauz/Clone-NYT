@@ -141,56 +141,78 @@ aside {
   text-align: start;
   vertical-align: middle;
 }
-.bigImage{
-  background-image: url('image1.png');
+.bigImage {
+  background-image: url("image1.png");
   background-repeat: no-repeat;
   background-size: 945px 576px;
   width: 945px;
   height: 576px;
-  margin-top: 0 auto; 
+  margin-top: 0 auto;
 }
-.bigImageTr{
+.bigImageTr {
   width: 228px;
 }
-.bigImageTd{
-  width:  228px;
+.bigImageTd {
+  width: 228px;
   height: 120px;
   font-size: 14px;
 }
-.bigImageTableWrapper{
-   text-align: center;
+.bigImageTableWrapper {
+  text-align: center;
 }
-.pullToStart{
-  text-align: start;  
+.pullToStart {
+  text-align: start;
 }
-.bigImageHeader{
+.bigImageHeader {
   width: 945px;
   margin: 0 auto;
 }
-.bigImageHeaderWrapper{
+.bigImageHeaderWrapper {
   text-align: center;
   margin-top: 50px;
 }
-.bigImageHeaderText{
+.bigImageHeaderText {
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
-.linefooter{
+.linefooter {
   width: 60px;
-  content: '';
+  content: "";
   height: 1px;
   margin: 0 0 13px;
   background-color: #000;
 }
-.frameWidow{
+.frameWidow {
   margin-top: 30px;
   margin-bottom: 0px;
 }
-.frameDesceiption{
+.frameDesceiption {
   margin-top: 0px;
   margin-bottom: 0px;
   text-align: start;
   line-height: 0.875rem !important;
   font-size: 14px !important;
+}
+
+ul {
+  list-style-type: none;
+}
+.footerLink {
+  color: #000000;
+  text-decoration: none;
+}
+.footerLink:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+
+.displayInLineBlock {
+  display: table-cell;
+  vertical-align: top;
+  padding: 10px;
+  margin: 0 auto;
+}
+.leftSplitBar {
+  border-left: 1px solid #eee;
 }
