@@ -82,6 +82,11 @@ main {
   width: 1200px;
   height: 700px;
 }
+#lnkGoToHome {
+  color: #567b95;
+  text-decoration: none;
+  margin-top: 20px;
+}
 .alignTextToStart {
   text-align: start;
 }
@@ -127,7 +132,7 @@ main {
 .bold {
   font-weight: 700;
 }
-.suscribeLink {
+.subscribeLink {
   color: rgb(50, 104, 145);
   text-decoration: none;
 }
@@ -148,6 +153,8 @@ aside {
   width: 945px;
   height: 576px;
   margin-top: 0 auto;
+  margin-right: auto;
+  margin-left: auto;
 }
 .bigImageTr {
   width: 228px;
@@ -156,12 +163,16 @@ aside {
   width: 228px;
   height: 120px;
   font-size: 14px;
+  text-align: start;
 }
 .bigImageTableWrapper {
   text-align: center;
 }
 .pullToStart {
   text-align: start !important;
+}
+.pullToEnd {
+  text-align: end !important;
 }
 .bigImageHeader {
   width: 945px;
@@ -207,28 +218,60 @@ ul {
   text-decoration: underline;
 }
 
-.displayInLineBlock {
+.displayTableCell {
   display: table-cell;
   vertical-align: top;
   padding: 10px;
   margin: 0 auto;
+  width: 16%;
 }
 .leftSplitBar {
   border-left: 1px solid #eee;
 }
-.footerWrapper{
+.bottomSplitBar {
+  border: 1px solid #eee;
+}
+.footerWrapper {
   text-align: start;
 }
 
-.innerfooterWrapper{
+.innerfooterWrapper {
   width: 1000px;
-  margin : 0 auto;
+  margin: 0 auto;
+  border-top: 3px double #eee;
 }
-.displayInLineBlock > ul {
-  padding:  0px;
+.displayTableCell > ul {
+  padding: 0px;
 }
-.displayInLineBlock > ul{
-   margin-right: 20px;
+.displayTableCell > ul > li {
+  margin-top: 5px;
+}
+
+.font11px {
+  font-size: 11px;
+}
+.font13px {
+  font-size: 13px;
+}
+
+.displayInLineBlock {
+  display: inline-block;
+}
+.pullToRight {
+  float: right;
+}
+.pullToLeft {
+  float: left;
+}
+.footerBorderBottom {
+  border: 1px solid #eee;
+}
+#titleArticle {
+  font-size: xx-large;
+  font-style: italic;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .containerImageInnerWrapper{
    width: 900px;
