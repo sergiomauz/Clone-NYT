@@ -255,6 +255,12 @@ aside {
   font-size: 14px !important;
 }
 
+.editorsSidebar{
+  position: absolute;
+  top: 2002px;
+  right: -60px;
+}
+
 ul {
   list-style-type: none;
 }
