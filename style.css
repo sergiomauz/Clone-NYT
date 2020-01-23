@@ -286,9 +286,9 @@ ul {
 }
 
 .innerfooterWrapper {
-  width: 1000px;
-  margin: 0 auto;
-  border-top: 3px double #eee;
+  width: 1200px;
+  margin: 35px auto;
+  border-top: 3px double #e2e2e2;
 }
 .displayTableCell > ul {
   padding: 0px;
@@ -296,9 +296,24 @@ ul {
 .displayTableCell > ul > li {
   margin-top: 5px;
 }
+.sideMostPopular > ul > li {
+  padding: 15px 0;
+  border-top: 1px solid #e2e2e2;
+}
+.sideMostPopular > ul {
+  padding: 0px;
+}
+.sideSuggestionsLink {
+  color: #000;
+  text-decoration: none;
+  font-size: larger;
+}
 
 .font11px {
   font-size: 11px;
+}
+.fontColorGray {
+  color: gray;
 }
 .font13px {
   font-size: 13px;
@@ -323,9 +338,43 @@ ul {
   margin-left: auto;
   margin-right: auto;
 }
-.containerImageInnerWrapper{
-   width: 900px;
-   margin: 0 auto;
+.containerImageInnerWrapper {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.imageSuggestions {
+  width: 300px;
+  height: 200px;
+}
+.sideSuggestions {
+  display: table-cell;
+  vertical-align: top;
+  padding-right: 25px;
+}
+.sideMostPopular {
+  display: table-cell;
+  vertical-align: top;
+  width: 300px;
+  border-top: 1px solid #000;
+}
+.sectionSuggestionsMostPospular {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.sideSuggestions #sideSuggestionsMore > tbody > tr {
+  vertical-align: top;
+  height: 315px;
+}
+.sideSuggestions #sideSuggestionsMore {
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+.sideSuggestions #sideSuggestionsEditorPicks {
+  height: 315px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .commentBtn{
