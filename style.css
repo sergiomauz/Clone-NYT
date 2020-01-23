@@ -96,7 +96,7 @@ main {
   margin-right: 15px;
 }
 .articleDateDivWrapper > a > i {
-  border-radius: 50%;
+  border-radius: 100%;
   border: 0;
   background-color: #eee;
   padding: 10px;
@@ -156,7 +156,6 @@ aside {
   width: 228px;
   height: 120px;
   font-size: 14px;
-  text-align: start;
 }
 .bigImageTableWrapper {
   text-align: center;
@@ -225,42 +224,13 @@ ul {
   width: 1000px;
   margin : 0 auto;
 }
-
 .displayInLineBlock > ul {
   padding:  0px;
 }
-
 .displayInLineBlock > ul{
    margin-right: 20px;
 }
-
-.containerImageWrapper{
-  text-align: center;
-}
-
-.containerImageWrapper > img {
-  text-align: center 
-}
-
-.containerImageInnerWrapper {
-  margin: 0 auto;
-  max-width: 720px;
-}
-.containerImageInnerWrapper > img{
-  margin-bottom: 0px;
-  width: 720px;
-}
-.containerImageInnerWrapper > p {
-  margin-top: 0px;
-  text-align: start;  
-}
-.versionLast{
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  font-size: 0.75rem !important;
-  line-height: 1rem !important;
-  color: rgb(102, 102, 102);
-}
-.footer_social{
-  display: inline;
-  margin-bottom: 30px;
+.containerImageInnerWrapper{
+   width: 900px;
+   margin: 0 auto;
 }
