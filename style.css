@@ -374,9 +374,15 @@ ul {
   height: 315px;
 }
 .sideSuggestions #sideSuggestionsMore {
-  border-top: 1px solid #000;
   border-bottom: 1px solid #000;
 }
+
+.sideSuggestionsHeader {
+  border-top: 1px solid #000;
+  margin-top: 0;
+  padding-top: 15px;
+}
+
 .sideSuggestions #sideSuggestionsEditorPicks {
   height: 315px;
   margin-top: 30px;
