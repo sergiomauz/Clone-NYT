@@ -20,7 +20,7 @@
 👤 **Sergio Zambrano**
 
 - Github: [@githubhandle](https://github.com/sergiomauz)
-- Linkedin: [linkedin](https://linkedin.com/in/sergiomauz)
+- Linkedin: [linkedin](https://www.linkedin.com/in/sergiozambranojove/)
 
 ## 🤝 Contributing
 
