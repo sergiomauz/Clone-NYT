@@ -497,9 +497,10 @@ ul {
   right: 0;
   width: 100%;
   height: 55px;
-  color: #fff;
+  color: #000;
   z-index: 99;
-  background-color: #333;
+  background-color: #fff;
+  border-top: 1px solid #000;
 }
 
 .sticktyFooter > div {
@@ -507,9 +508,10 @@ ul {
   text-align: center;
 }
 
-.viewOfferLink {
+.viewExpandLink {
   float: right;
   margin-right: 50px;
+  font-weight: 700;
 }
 
 .footerMenuLink {
