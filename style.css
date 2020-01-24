@@ -489,3 +489,14 @@ ul {
   width: 15px;
   height: 15px;
 }
+
+.footerMenuLink {
+  text-decoration: none;
+  margin: 0 10px;
+}
+.footerMenuLink:hover {
+  text-decoration: underline;
+}
+.footerMenuContainer {
+  text-align: center;
+}
