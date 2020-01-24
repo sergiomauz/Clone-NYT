@@ -1,13 +1,14 @@
 nav {
   position: fixed;
-  top: 0pc;
+  top: 0;
   width: 100%;
   text-align: center;
-  background-color: #ffffff;
+  background-color: #fff;
   border-bottom: 1px solid #e2e2e2;
   vertical-align: middle;
   height: 45px;
 }
+
 main {
   margin-top: 100px;
 }
@@ -19,6 +20,7 @@ main {
 .menuLogo {
   height: 40px;
 }
+
 .rightTopMenu {
   float: right;
   margin: 10px;
@@ -31,7 +33,7 @@ main {
 
 .menuLink {
   text-decoration: none;
-  color: #000000;
+  color: #000;
   font-weight: 700;
 }
 
@@ -40,7 +42,7 @@ main {
   background: #567b95;
   border: 1px solid #326891;
   font-size: 11px;
-  color: #ffffff;
+  color: #fff;
   font-weight: 700;
   vertical-align: middle;
   padding: 7px;
@@ -50,19 +52,23 @@ main {
 .articleAlign {
   text-align: center;
 }
+
 .mainArticleWrapper {
   width: 600px;
   margin: 0 auto;
 }
+
 .mainImageWrapper {
   text-align: center;
   margin: 0 auto;
   width: 1200px;
 }
+
 .innerArticleWrapper {
   text-align: center;
   margin-top: 30px;
 }
+
 .footerImage {
   text-align: start;
 }
@@ -71,37 +77,45 @@ main {
   float: left;
   margin-left: 150px;
 }
+
 #menuScreenMarginRight {
   float: right;
   margin-right: 150px;
 }
+
 #menuScreenUserIcon {
   display: none;
 }
+
 #mainImage {
   width: 1200px;
   height: 700px;
 }
+
 #lnkGoToHome {
   color: #567b95;
   text-decoration: none;
   margin-top: 20px;
 }
+
 .alignTextToStart {
   text-align: start;
 }
-. articleDateDiv {
+
+.articleDateDiv {
   display: inline-block;
 }
+
 .leftFloat {
   float: left;
 }
+
 .rightFloat {
   float: right;
   margin-right: 15px;
 }
 
-.commentHolder{
+.commentHolder {
   -webkit-box-align: center;
   align-items: center;
   display: flex;
@@ -126,71 +140,82 @@ main {
   display: block;
   left: 15px;
   position: absolute;
-  width: 0px;
+  width: 0;
   border-color: rgb(102, 102, 102) transparent;
   border-style: solid;
-  border-width: 6px 0px 0px 8px;
+  border-width: 6px 0 0 8px;
 }
-.commentHolder::after{
+
+.commentHolder::after {
   bottom: -6px;
   content: "";
   display: block;
   left: 16px;
   position: absolute;
-  width: 0px;
+  width: 0;
   border-color: rgb(255, 255, 255) transparent;
   border-style: solid;
-  border-width: 6px 0px 0px 6px;
+  border-width: 6px 0 0 6px;
 }
+
 .articleDateDivWrapper > a > i {
   border-radius: 100%;
   border: 0;
   background-color: #eee;
-  padding: 10px;
   color: black;
   padding: 5px;
   width: 15px;
   height: 15px;
 }
+
 .date {
   margin-top: 10px;
 }
+
 .authors {
   font-weight: 700;
   margin-bottom: 15px;
 }
+
 .articleContentWrapper {
   margin-top: 90px;
 }
+
 .articleContentWrapper > p {
   text-align: justify;
   font-size: 1.25rem;
   line-height: 1.875rem;
   margin-bottom: 0.9375rem;
 }
+
 .littleSplitBar {
   width: 72px;
   height: 2px;
   background-color: #eee;
   margin: 0 45%;
 }
+
 .bold {
   font-weight: 700;
 }
+
 .subscribeLink {
   color: rgb(50, 104, 145);
   text-decoration: none;
 }
+
 aside {
   float: right;
   margin-right: 40px;
   width: 400px;
 }
+
 .editorsPickInline {
   display: inline-block;
   text-align: start;
   vertical-align: middle;
 }
+
 .bigImage {
   background-image: url("image1.png");
   background-repeat: no-repeat;
@@ -201,41 +226,51 @@ aside {
   margin-right: auto;
   margin-left: auto;
 }
+
 .bigImageTr {
   width: 228px;
 }
+
 .bigImageTd {
   width: 228px;
   height: 120px;
   font-size: 14px;
   text-align: start;
 }
+
 .bigImageTableWrapper {
   text-align: center;
 }
+
 .pullToStart {
   text-align: start !important;
 }
+
 .pullToEnd {
   text-align: end !important;
 }
+
 .bigImageHeader {
   width: 945px;
   margin: 0 auto;
 }
+
 .bigImageHeaderWrapper {
   text-align: center;
   margin-top: 50px;
 }
+
 .bigImageHeaderText {
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
+
 .commentsUpBtn {
   border: 0;
   box-shadow: none;
   background-color: transparent;
- }
+}
+
 .linefooter {
   width: 60px;
   content: "";
@@ -243,19 +278,21 @@ aside {
   margin: 0 0 13px;
   background-color: #000;
 }
+
 .frameWidow {
   margin-top: 30px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
+
 .frameDesceiption {
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
   text-align: start;
   line-height: 0.875rem !important;
   font-size: 14px !important;
 }
 
-.editorsSidebar{
+.editorsSidebar {
   position: absolute;
   top: 2002px;
   right: -60px;
@@ -264,12 +301,14 @@ aside {
 ul {
   list-style-type: none;
 }
+
 .footerLink {
-  color: #000000;
+  color: #000;
   text-decoration: none;
 }
+
 .footerLink:hover {
-  color: #000000;
+  color: #000;
   text-decoration: underline;
 }
 
@@ -280,12 +319,15 @@ ul {
   margin: 0 auto;
   width: 16%;
 }
+
 .leftSplitBar {
   border-left: 1px solid #eee;
 }
+
 .bottomSplitBar {
   border: 1px solid #eee;
 }
+
 .footerWrapper {
   text-align: start;
   margin-top: 50px;
@@ -296,19 +338,24 @@ ul {
   margin: 35px auto;
   border-top: 3px double #e2e2e2;
 }
+
 .displayTableCell > ul {
-  padding: 0px;
+  padding: 0;
 }
+
 .displayTableCell > ul > li {
   margin-top: 5px;
 }
+
 .sideMostPopular > ul > li {
   padding: 15px 0;
   border-top: 1px solid #e2e2e2;
 }
+
 .sideMostPopular > ul {
-  padding: 0px;
+  padding: 0;
 }
+
 .sideSuggestionsLink {
   color: #000;
   text-decoration: none;
@@ -318,9 +365,11 @@ ul {
 .font11px {
   font-size: 11px;
 }
+
 .fontColorGray {
   color: gray;
 }
+
 .font13px {
   font-size: 13px;
 }
@@ -328,15 +377,19 @@ ul {
 .displayInLineBlock {
   display: inline-block;
 }
+
 .pullToRight {
   float: right;
 }
+
 .pullToLeft {
   float: left;
 }
+
 .footerBorderBottom {
   border: 1px solid #eee;
 }
+
 #titleArticle {
   font-size: xx-large;
   font-style: italic;
@@ -344,6 +397,7 @@ ul {
   margin-left: auto;
   margin-right: auto;
 }
+
 .containerImageInnerWrapper {
   width: 900px;
   margin: 0 auto;
@@ -353,17 +407,20 @@ ul {
   width: 300px;
   height: 200px;
 }
+
 .sideSuggestions {
   display: table-cell;
   vertical-align: top;
   padding-right: 25px;
 }
+
 .sideMostPopular {
   display: table-cell;
   vertical-align: top;
   width: 300px;
   border-top: 1px solid #000;
 }
+
 .sectionSuggestionsMostPospular {
   width: 1200px;
   margin: 0 auto;
@@ -373,6 +430,7 @@ ul {
   vertical-align: top;
   height: 315px;
 }
+
 .sideSuggestions #sideSuggestionsMore {
   border-bottom: 1px solid #000;
 }
@@ -389,7 +447,7 @@ ul {
   margin-bottom: 30px;
 }
 
-.commentBtn{
+.commentBtn {
   background-color: rgb(86, 123, 149);
   color: white;
   display: block;
@@ -407,23 +465,23 @@ ul {
   border-color: rgb(50, 104, 145);
   border-image: initial;
   border-radius: 3px;
-  padding: 5px 0px;
+  padding: 5px 0;
   transition: background-color 0.6s ease 0s;
 }
 
-.commentSocialLinks{
+.commentSocialLinks {
   width: 200px;
   float: right;
 }
 
-.footer_social{
+.footer_social {
   margin-bottom: 100px;
 }
+
 .commentSocialLinks > a > i {
   border-radius: 100%;
   border: 0;
   background-color: #eee;
-  padding: 10px;
   color: black;
   padding: 5px;
   width: 15px;
