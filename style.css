@@ -511,3 +511,17 @@ ul {
   float: right;
   margin-right: 50px;
 }
+
+.footerMenuLink {
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footerMenuLink:hover {
+  text-decoration: underline;
+}
+
+.footerMenuContainer {
+  text-align: center;
+  margin-bottom: 80px;
+}
